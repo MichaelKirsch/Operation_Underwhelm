@@ -43,8 +43,10 @@ int main() {
 
     GUI::Button test_button(&test_unit,{0.1,0.1,0.3,0.3});
     GUI::Button ttest_button(&test_unit,{0.5,0.1,0.3,0.3});
-    GUI::Button test_button2(&gui,{0.5,0.1,0.3,0.3});
-
+    GUI::Button test_button2(&gui,{0.5,0.1,0.1,0.1});
+    GUI::FreeSlider slider1(&gui,{0.1,0.5,0.2,0.075});
+    GUI::FreeSlider slider2(&gui,{0.1,0.6,0.2,0.075});
+    GUI::FreeSlider slider3(&gui,{0.1,0.7,0.2,0.075});
     mgr.getWindow().setFramerateLimit(100);
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
@@ -75,6 +77,8 @@ int main() {
             mgr.getWindow().close();
         }
 
+        test_button2.setPrimaryColor({slider1.getValue(),slider2.getValue(),slider3.getValue()});
+
         for(auto& d:wid)
             d->update();
 
@@ -83,7 +87,6 @@ int main() {
             if(e.type==sf::Event::Closed)
                 mgr.getWindow().close();
         }
-
 
         gui.render();
         mgr.swapBuffer();
