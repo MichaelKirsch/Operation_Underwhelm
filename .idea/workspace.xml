@@ -1,9 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="OPERTATION_UNDERWHELM" targetName="OPERTATION_UNDERWHELM" />
+    </generated>
+  </component>
   <component name="CMakeSettings">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="afd496c7-2587-4089-816d-c98dc599ede1" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ElmWorkspace">
+    <elmProjects />
+    <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1byp9ggHnQqzQcSJOnAgImFYfWv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunManager">
     <configuration name="OPERTATION_UNDERWHELM" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="OPERTATION_UNDERWHELM" TARGET_NAME="OPERTATION_UNDERWHELM" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="OPERTATION_UNDERWHELM" RUN_TARGET_NAME="OPERTATION_UNDERWHELM">
@@ -11,5 +55,101 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="afd496c7-2587-4089-816d-c98dc599ede1" name="Default Changelist" comment="" />
+      <created>1589614037604</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1589614037604</updated>
+      <workItem from="1589614039499" duration="4342000" />
+      <workItem from="1589622873016" duration="65000" />
+      <workItem from="1589622952571" duration="4919000" />
+    </task>
+    <task id="LOCAL-00001" summary="test">
+      <created>1589614110398</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1589614110398</updated>
+    </task>
+    <task id="LOCAL-00002" summary="test">
+      <created>1589614313006</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589614313006</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="580" y="1" key="CommitChangelistDialog2" timestamp="1589614312583">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="580" y="1" key="CommitChangelistDialog2/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589614312583" />
+    <state x="804" y="404" key="Github.ShareDialog" timestamp="1589614069946">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="804" y="404" key="Github.ShareDialog/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589614069946" />
+    <state x="745" y="142" key="Github.UntrackedFilesDialog" timestamp="1589614074799">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="745" y="142" key="Github.UntrackedFilesDialog/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589614074799" />
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom" timestamp="1589628763707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="275" key="GridCell.Tab.0.bottom/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589628763707" />
+    <state width="1878" height="275" key="GridCell.Tab.0.center" timestamp="1589628763707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="275" key="GridCell.Tab.0.center/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589628763707" />
+    <state width="1878" height="275" key="GridCell.Tab.0.left" timestamp="1589628763706">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="275" key="GridCell.Tab.0.left/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589628763706" />
+    <state width="1878" height="275" key="GridCell.Tab.0.right" timestamp="1589628763707">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="275" key="GridCell.Tab.0.right/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589628763707" />
+    <state width="1878" height="407" key="GridCell.Tab.1.bottom" timestamp="1589624779970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="407" key="GridCell.Tab.1.bottom/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589624779970" />
+    <state width="1878" height="407" key="GridCell.Tab.1.center" timestamp="1589624779970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="407" key="GridCell.Tab.1.center/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589624779970" />
+    <state width="1878" height="407" key="GridCell.Tab.1.left" timestamp="1589624779970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="407" key="GridCell.Tab.1.left/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589624779970" />
+    <state width="1878" height="407" key="GridCell.Tab.1.right" timestamp="1589624779970">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1878" height="407" key="GridCell.Tab.1.right/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589624779970" />
+    <state x="541" y="255" key="IDE.errors.dialog" timestamp="1589624764809">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="541" y="255" key="IDE.errors.dialog/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589624764809" />
+    <state x="462" y="165" key="SettingsEditor" timestamp="1589622853051">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="462" y="165" key="SettingsEditor/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589622853051" />
+    <state x="553" y="249" key="Vcs.Push.Dialog.v2" timestamp="1589614313840">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="553" y="249" key="Vcs.Push.Dialog.v2/3840.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1589614313840" />
   </component>
 </project>
