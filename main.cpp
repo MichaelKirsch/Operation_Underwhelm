@@ -29,7 +29,11 @@ private:
 
 
 int main() {
+    sf::Sound sound;
+    sf::SoundBuffer t;
+    t.loadFromFile("data/music/kenney_uiaudio/Audio/switch15.ogg");
     WindowManager mgr;
+    sound.setBuffer(t);
     mgr.init();
     GUI::ColorPalette palette;
     palette.loadFromFile("data/ColorSchemes/Example.mk_color");
@@ -53,20 +57,22 @@ int main() {
         if(test_button.mouse_is_over && sf::Mouse::isButtonPressed(sf::Mouse::Left))
         {
             test_unit.moveable = true;
+            sound.stop();
+            sound.play();
+            test_unit.setSecondaryColor(GUI::Success);
         }
 
         if(ttest_button.mouse_is_over && sf::Mouse::isButtonPressed(sf::Mouse::Left))
         {
             test_unit.moveable = false;
+            sound.stop();
+            sound.play();
+            test_unit.setSecondaryColor(GUI::Warning);
         }
 
         if(test_button2.mouse_is_over && sf::Mouse::isButtonPressed(sf::Mouse::Left))
         {
-            if(!wid.empty())
-            {
-                delete wid.back();
-                wid.pop_back();
-            }
+            mgr.getWindow().close();
         }
 
         for(auto& d:wid)
