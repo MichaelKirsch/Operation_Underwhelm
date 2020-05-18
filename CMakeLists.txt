@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.16)
-project(OPERTATION_UNDERWHELM)
+project(OPERATION_UNDERWHELM)
 
 set(CMAKE_CXX_STANDARD 17)
 

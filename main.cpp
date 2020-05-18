@@ -40,19 +40,22 @@ int main() {
     GUI::GUI gui(mgr,palette);
 
     GUI::Unit test_unit(&gui,{0.1,0.1,0.3,0.3});
+    GUI::Button test_button(&test_unit,{0.1,0.1,0.25,0.25});
+    GUI::Button ttest_button(&test_unit,{0.5,0.1,0.25,0.25});
+    GUI::FreeSlider slider1(&test_unit,{0.1,0.4,0.6,0.15});
+    GUI::FreeSlider slider2(&test_unit,{0.1,0.6,0.6,0.15});
+    GUI::FreeSlider slider3(&test_unit,{0.1,0.8,0.6,0.15});
+    GUI::FreeSlider soundslider(&test_unit,{0.75,0.8,0.2,0.075});
+    GUI::Button test_button2(&test_unit,{0.75,0.5,0.2,0.2});
 
-    GUI::Button test_button(&test_unit,{0.1,0.1,0.3,0.3});
-    GUI::Button ttest_button(&test_unit,{0.5,0.1,0.3,0.3});
-    GUI::Button test_button2(&gui,{0.5,0.1,0.1,0.1});
-    GUI::FreeSlider slider1(&gui,{0.1,0.5,0.2,0.075});
-    GUI::FreeSlider slider2(&gui,{0.1,0.6,0.2,0.075});
-    GUI::FreeSlider slider3(&gui,{0.1,0.7,0.2,0.075});
     mgr.getWindow().setFramerateLimit(100);
     glEnable(GL_BLEND);
     glBlendFunc(GL_SRC_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
     std::list<car*> wid;
     while(mgr.getWindow().isOpen())
     {
+        test_unit.setTransparency(soundslider.getValue());
+        sound.setVolume(soundslider.getValue()*100.f);
         gui.update(mgr.getMouse());
         mgr.clearWindow();
         sf::Event e;
